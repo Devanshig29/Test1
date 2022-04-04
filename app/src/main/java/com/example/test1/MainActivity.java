@@ -138,13 +138,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnSelect:
                 for(Course prd:cList) {
                     if (flg.equals("graduated")) {
-                        if (chours <= 21) {
+                        if (tohours <= 21) {
                             tmpList.add(prd);
                             tmpNames.add(prd.getCoursename());
                         }
                     }
                     else if (flg.equals("ungraduated")) {
-                        if (chours <= 19) {
+                        if (tohours <= 19) {
                             tmpList.add(prd);
                             tmpNames.add(prd.getCoursename());
                         }
