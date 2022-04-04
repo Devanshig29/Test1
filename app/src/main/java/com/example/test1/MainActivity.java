@@ -152,20 +152,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     else {
                         chours = 0;
                     }
-                    //not working
-                  /*  if(tempNames.contains(prd.getCoursename()))
-                    {
-                        Toast.makeText(this,"Course is already selected",Toast.LENGTH_SHORT).show();
-                    }
-                  /*  obj=verifycourse(prd.getCoursename());
-                    if(obj==null)
-                    {
-
-                    }
-                    else
-                    {
-                        Toast.makeText(this,"Course is already selected",Toast.LENGTH_SHORT).show();
-                    }*/
 
                 }
                 if (chb1.isChecked()) {
